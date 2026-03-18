@@ -65,11 +65,11 @@ class Image {
 
 // Reads a pgm image from file input_filename.
 // an_image is the resulting image.
-// Returns true if  everyhing is OK, false otherwise.
+// Returns true if everything is OK, false otherwise.
 bool ReadImage(const std::string &input_filename, Image *an_image);
 
 // Writes image an_iamge into the pgm file output_filename.
-// Returns true if  everyhing is OK, false otherwise.
+// Returns true if everything is OK, false otherwise.
 bool WriteImage(const std::string &output_filename, const Image &an_image);
 
 //  Draws a line of given gray-level color from (x0,y0) to (x1,y1);
