@@ -13,6 +13,7 @@ using namespace std;
 
 namespace ComputerVisionProjects {
 
+//constructor  
 Image::Image(const Image &an_image){
   pixels_ = nullptr;
   num_rows_ = 0;
