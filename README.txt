@@ -18,7 +18,14 @@ p1
 
 p2
 
- ...
+ For program 2 I had a hard time figuring out how to set up the inputs for the command line because 
+ I am not very familiar with terminal commands. I had to make sure I was accessing the images from the 
+ right folder and giving them program specific names so that I could read them and then edit them in 
+ the way I wanted. 
+ Unfortunately, I could not figure out how to make both objects of the image appear after I put the binary
+ two_objects image through the sequential labeling alogrithm. I would get an image with one gray-scaled 
+ object, and even after messing around with the threshold, the second object just would not appear. However, 
+ in the many_objects image, all objects would appear except for one that looked faint in color.
  
 p3
  ...

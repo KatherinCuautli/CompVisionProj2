@@ -28,6 +28,7 @@ int main(int argc, char **argv){ //command line arguments
   }
 
   //Looping through each pixel & setting either white or black based on provided threshold
+  //Recommended clean threshold value: 138
   for(size_t i=0; i<testIm.num_rows(); ++i){
     for(size_t j=0; j<testIm.num_columns(); ++j){
       int pixel = testIm.GetPixel(i, j);
@@ -37,7 +38,8 @@ int main(int argc, char **argv){ //command line arguments
         testIm.SetPixel(i, j, 0);   //setting to black pixels
       }
     }
-}
+  }
+
   //Creates a new image with specified name applying these changes to the pixels
   if(!WriteImage(output_file, testIm)){
     std::cout << "Failed to Write!" << std::endl;
